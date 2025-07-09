@@ -8,6 +8,9 @@
 }
 
 /* shared style */
+.secondery-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -22,6 +25,15 @@
     font-weight: 800;
     font-size: 20px;
     border: none;
+}
+.section-title{
+    font-size: 35;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color:#757575;
 }
 /* header styles */
 .header{
@@ -61,7 +73,7 @@ nav li a {
     margin: 0 35px 0 100px;
 }
 .banner-content{
-    max-width: 580px;
+    max-width: 550px;
 }
 .banner-greetings{
     font-size: 45px;
@@ -77,5 +89,26 @@ nav li a {
     font-size: 18px;
 }
 .banner-profile-pic{
-    width: 580px;
+    width: 550px;
+}
+/* main  */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
 }

@@ -181,8 +181,18 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 /* for small divices */
 @media screen and (max-width:576px) {
-    .skill-container ,footer,.about-items{
+    .skill-container ,footer,.about-items ,.banner,nav ,nav ul{
         flex-direction: column;
+    }
+
+    .banner{
+        margin: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
     }
     .resume-container {
         flex-direction: column;
@@ -198,4 +208,12 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         width:calc(100% - 40px);
     }
 
+}
+
+/* responsive for tablet devices */
+
+@media screen and (min-width:576px)  and (max-width:992px){
+    .banner{
+        flex-direction: column;
+    }    
 }
